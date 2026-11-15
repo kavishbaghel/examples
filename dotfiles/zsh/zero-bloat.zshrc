@@ -19,7 +19,6 @@ alias gpl="git pull"
 
 
 
-
 # Auto complete
 source /opt/homebrew/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
@@ -38,3 +37,9 @@ eval "$(zoxide init zsh)"
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
+
+# AWS CLI completion
+autoload -Uz bashcompinit
+bashcompinit
+
+complete -C "$(command -v aws_completer)" aws
