@@ -4,6 +4,19 @@ alias bs="brew search"
 alias bi="brew install"
 alias k="kubectl"
 alias ctx="kubectl ctx"
+alias tf="terraform"
+alias tfp="terraform plan"
+alias tfa="terraform apply"
+alias tfd="terraform destroy"
+alias tfv="terraform validate"
+alias tfi="terraform init"
+alias tfmt="terraform fmt"
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gpsh="git push"
+alias gpl="git pull"
+
 
 
 
